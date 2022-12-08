@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<div class="container mx-auto w-md-50 w-xs-100" style="margin-top:50px">
+<div class="container mx-auto col-md-6 col-xs-12" style="margin-top:50px">
 
 <h1 class="mb-5" style="font-weight: bold "><u>File Name Checker</u></h1>
 
@@ -40,14 +40,14 @@
 
     <div class="form-group col-md-6">
         <label for="studentNum">Student Number</label>
-        <input value="" id="studentNum" type="text" maxlength="7" class="form-control form-control-sm mx-auto w-100" placeholder="7桁の学籍番号を入力してください">
+        <input value="" id="studentNum" type="text" maxlength="7" class="form-control form-control-sm mx-auto w-100 mb-4" placeholder="7桁の学籍番号を入力してください">
         <span id="studentNumAlert1" style="color:red" class="form-text collapse">入力桁数が7桁未満です.</span>
         <span id="studentNumAlert2" style="color:red" class="form-text collapse">数字以外が含まれています.</span>
     </div>
 </div>
 
 <div class="row mb-4">
-    <div class="form-group col-md-10">
+    <div class="form-group col-md-10 mb-2">
         <label for="fileName">File Name</label>
         <input id="fileName" type="file" class="form-control w-100">
     </div>
