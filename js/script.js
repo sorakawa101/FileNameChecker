@@ -1,6 +1,3 @@
-const API_KEY = config.API_KEY;
-console.log(API_KEY)
-
 const teach = (filename, expansion, check, index) => {
 
     // 表示用の要素
